@@ -1,0 +1,64 @@
+h1{
+    font-family: Bahnschrift Light;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-family: Bahnschrift Light;
+    font-size: 15px;
+}
+input[type=radio]{
+    border: 0px;
+    width: 20px;
+    height: 15px;
+    margin-top: 20px;
+}
+
+.quizContainer{
+    width: 75%;
+    margin: auto;
+    padding-top: 5px;
+    position: relative;
+}
+.nextButton{
+    border-radius: 35px;
+    width: 150px;
+    height: 50px;
+    text-align:center;
+    background-color: lightgrey;
+    color: black;
+    font-family: Bahnschrift Light;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+}
+.question{
+    font-family: Bahnschrift Light;
+    font-size: 20px;
+    width: 90%;
+    height: auto;
+    margin-left:45px;
+    text-align: left;
+}
+.quizMessage{
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    font-family: Bahnschrift Light;
+    color: black;
+}
+.choiceList{
+    font-family:Bahnschrift Light;
+    color: rgb(49, 68, 231);
+}
+.result{
+    width: 25%;
+    height: auto;
+    border-radius: 30px;
+    background-color: rgb(50, 235, 59);
+    margin: auto;
+    text-align: center;
+    font-family: Bahnschrift Light;
+}

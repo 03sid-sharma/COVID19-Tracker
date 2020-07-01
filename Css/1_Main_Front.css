@@ -1,0 +1,77 @@
+.img-size{
+  height:55px;
+  width: 75px;
+  border-radius: 1px;
+}
+
+.title
+{
+position:absolute;
+top:55%;
+left:65%;
+font-family: Bahnschrift Light;
+font-size:80px;
+color: rgb(167, 209, 52);
+}
+
+a
+{
+  font-size: x-large;
+  transition:0.5s;
+}
+
+li a:hover
+{
+transform:scale(0.7);
+background-color:rgb(88, 189, 236);
+border-radius: 20px;
+}
+
+
+.one
+{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/Mask.jpg);
+  height:100vh;
+  width:100%;
+  background-size:cover;
+  background-position:center;
+  background-attachment: fixed;
+box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+
+.two
+{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/Lab.jpg);
+  height:100vh;
+  width:100%;
+  background-size:cover;
+  background-position:center;
+  background-attachment: fixed;
+box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+
+}
+
+.spl{
+  height: 2px;
+  width: 540px;
+  background-color: darkcyan;
+  border-radius: 500px;
+}
+
+.abt{
+  height: 2px;
+  width: 150px;
+  background-color: darkcyan;
+  border-radius: 500px;
+}
+
+.para
+{
+  font-size:15px;
+margin-left:50px;
+margin-right:50px;
+margin-bottom:50px;
+}
+ .up{
+   height: 10vh;
+ }
